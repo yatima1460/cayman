@@ -112,17 +112,7 @@ a {
   background-color: white;
 
 
-  @include large {
-    padding: 4rem 5rem;
-  }
-
-  @include medium {
-    padding: 2rem 3rem;
-  }
-
-  @include small {
-    padding: 1rem 2rem;
-  }
+ 
 }
 
 .project-name {
