@@ -30,7 +30,14 @@
 
     <p class="page-header">
       <div class="header">
-        <img src="https://raw.githubusercontent.com/yatima1460/Drill/master/assets/icon.png" alt="Drill" />
+
+
+        <img width=100 height=100
+          src="https://raw.githubusercontent.com/yatima1460/Drill/761466e9c32038b22c42d4242bdfebf8dd89d01f/assets/icon.svg?sanitize=true"
+          srcset="" alt="Drill logo">
+
+
+
         <h1 class="project-name">{{ site.github.repository_name }}</h1>
       </div>
       <h2 class="project-tagline">{{ site.github.project_tagline }}</h2>
@@ -41,8 +48,7 @@
       <a href="{{ site.github.zip_url }}" class="btn">Source .zip</a>
       <a href="{{ site.github.tar_url }}" class="btn">Source .tar.gz</a>
       {% for asset in site.github.latest_release.assets %}
-      <a href="{{ asset.browser_download_url }}" class="btn"
-        title="Download {{ asset.name }}">{{ asset.name }}</a>
+      <a href="{{ asset.browser_download_url }}" class="btn" title="Download {{ asset.name }}">{{ asset.name }}</a>
       {% endfor %}
 
     </p>
