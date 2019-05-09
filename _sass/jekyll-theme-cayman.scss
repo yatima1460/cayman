@@ -106,10 +106,10 @@ a {
 }
 
 .page-header {
-  color: $header-heading-color;
+  color: white;
   text-align: center;
-  background-color: $header-bg-color;
-  background-image: url("https://raw.githubusercontent.com/yatima1460/Drill/assets/screenshot.png");
+  background-color: white;
+
 
   @include large {
     padding: 4rem 5rem;
